@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.sy.ShowSy.controller;
+package com.sy.ShowSy.manage;
 
 import java.io.Serializable;
 import java.util.HashMap;
