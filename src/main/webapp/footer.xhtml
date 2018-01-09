@@ -1,0 +1,26 @@
+<ui:composition 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:pa="http://primefaces.org/barcelona"
+    >
+<div id="footer">
+               <div class="footer-content clearfix">
+                   <div class="footer-left">
+                       <p:graphicImage name="images/logo-black.png" library="barcelona-layout" styleClass="landing-logo"/>
+                       <div>PrimeFaces Barcelona</div>
+                   </div>
+                   <div class="footer-right">
+                       <a href="#"><i class="fa fa-twitter" /></a>
+                       <a href="#"><i class="fa fa-facebook" /></a>
+                       <a href="#"><i class="fa fa-github" /></a>
+                   </div>
+               </div>
+           </div>
+        
+        
+        <h:outputStylesheet name="css/animate.css" library="barcelona-layout" />
+        <h:outputStylesheet name="css/layout-#{guestPreferences.layout}.css" library="barcelona-layout" />
+</ui:composition>

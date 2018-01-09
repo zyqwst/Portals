@@ -1,3 +1,28 @@
-.disactive{
-	display:none;
+
+/**描边效果*/
+.ui-sy-border{
+	position:relative;
+	cursor:pointer;
+} 
+
+.ui-sy-border::before,
+.ui-sy-border::after{
+	position:absolute;
+	content:"";
+	top:0;
+	left:0;
+	width:0;
+	height:2px;
+	background:#222;
+	transition:all 200ms linear;
+}
+.ui-sy-border::after{
+	top:inherit;
+	left:inherit;
+	bottom:0;
+	right:0;
+}
+.ui-sy-border:hover::before,
+.ui-sy-border:hover::after{
+	width:100%;
 }
